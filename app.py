@@ -59,8 +59,8 @@ def gemini_chatbot_response(user_text, file_obj, chat_history):
 
 # --- Giao diện Gradio ---
 with gr.Blocks(theme=gr.themes.Soft(), css="footer {display: none !important}") as demo:
-    gr.Markdown("# 🤖 Chatbot Đa phương thức với ")
-    gr.Markdown("Trò chuyện bằng văn bản hoặc tải lên hình ảnh, âm thanh, video để bắt đầu.")
+    gr.Markdown("# 🤖 Mình là HEYGAY")
+    gr.Markdown("mình mong có thể giúp đỡ bạn ^^")
 
     # Bạn cần có 2 file ảnh này trong thư mục dự án
     chatbot = gr.Chatbot(label="Cuộc trò chuyện", height=600, avatar_images=("user.png", "bot.png"))
